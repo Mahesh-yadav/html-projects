@@ -1,0 +1,64 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  background-image: url('../images/pattern.jpeg');
+  padding: 90px 30px;
+}
+
+.header h1 {
+  font-size: 100px;
+  font-weight: 700;
+  color: khaki;
+  text-align: center;
+}
+
+.card {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.brushes {
+  background-color: mediumspringgreen;
+}
+
+.frames {
+  background-color: lightcoral;
+}
+
+.paints {
+  background-color: rgb(88, 184, 221);
+}
+
+.card-img {
+  flex: 1;
+}
+
+.card-img img {
+  width: 200px;
+  height: 200px;
+  transform: rotate(10deg);
+}
+
+.card-body {
+  flex: 4;
+}
+
+.card-heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 28px;
+  opacity: 0.8;
+}
+
+.card-text strong {
+  font-weight: bold;
+}
